@@ -4,6 +4,9 @@
     "deploy": "npm run build && now && now alias",
     "build": "vuepress build ../docs --dest ./dist"
   },
+  "optionalDependencies": {
+    "now": "^13.1.3"
+  },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "markdown-it-plantuml": "^1.4.1",
