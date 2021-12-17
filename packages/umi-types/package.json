@@ -4,7 +4,7 @@
   "description": "Type definitions for umi.",
   "types": "index",
   "dependencies": {
-    "@types/cheerio": "^0.22.10",
+    "@types/cheerio": "^0.22.30",
     "@types/debug": "^4.1.5",
     "@types/lodash": "^4.14.136",
     "@types/react": "^16.8.25",
