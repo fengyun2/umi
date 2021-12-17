@@ -60,10 +60,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/signale@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@types/signale/-/signale-1.2.1.tgz#7ff3d477e8d5983b7ecef544f5830c3cb271d1a8"
-  integrity sha512-mV6s2VgcBC16Jb+1EwulgRrrZBT93V4JCILkNPg31rvvSK6LRQQGU8R/SUivgHjDZ5LJZu/yL2kMF8j85YQTnA==
+"@types/signale@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@types/signale/-/signale-1.4.2.tgz#6fc36d038297fa4c1d9aa2b5c2ec80195d4c5d2f"
+  integrity sha512-cIqvDXQmLD5UNgtYhHvTt4dEyR+FXuCwoqQbz7mZaS7pGyJvpUFDAoMbgwymptqUXH3eL8vBcNU+dBiyauaA6Q==
   dependencies:
     "@types/node" "*"
 
