@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.10",
     "@types/debug": "^4.1.5",
-    "@types/lodash": "^4.14.136",
+    "@types/lodash": "^4.14.177",
     "@types/react": "^16.8.25",
     "@types/react-redux": "^7.1.2",
     "@types/signale": "^1.2.1",
