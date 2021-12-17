@@ -6,7 +6,7 @@
     "babel-plugin-dva-hmr": "0.4.2",
     "dva": "2.6.0-beta.6",
     "dva-immer": "0.4.5",
-    "dva-loading": "3.0.6",
+    "dva-loading": "3.0.22",
     "globby": "7.1.1",
     "lodash.uniq": "4.5.0",
     "object-assign": "4.1.1",
