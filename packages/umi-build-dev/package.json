@@ -22,7 +22,7 @@
     "decamelize": "3.2.0",
     "didyoumean": "1.2.1",
     "dotenv": "8.0.0",
-    "ejs": "2.6.2",
+    "ejs": "3.1.7",
     "esprima-extract-comments": "1.1.0",
     "execa": "1.0.0",
     "express": "4.17.1",
@@ -73,7 +73,7 @@
     "webpack-node-externals": "1.7.2",
     "whatwg-fetch": "3.0.0",
     "write-file-webpack-plugin": "4.5.0",
-    "yeoman-generator": "4.0.1"
+    "yeoman-generator": "4.11.0"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.0.0-alpha.8",
