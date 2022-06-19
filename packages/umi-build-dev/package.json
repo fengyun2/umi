@@ -30,7 +30,7 @@
     "getnpmregistry": "^1.0.1",
     "git-url-parse": "^11.1.2",
     "glob": "7.1.4",
-    "got": "9.6.0",
+    "got": "11.8.5",
     "html-minifier": "4.0.0",
     "http-proxy-middleware": "0.19.1",
     "js-yaml": "3.13.1",
