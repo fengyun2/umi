@@ -28,7 +28,7 @@
     "express": "4.17.1",
     "extend2": "1.0.0",
     "getnpmregistry": "^1.0.1",
-    "git-url-parse": "^11.1.2",
+    "git-url-parse": "^13.0.0",
     "glob": "7.1.4",
     "got": "9.6.0",
     "html-minifier": "4.0.0",
