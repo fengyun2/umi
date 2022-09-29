@@ -21,8 +21,9 @@
     "umi-core": "1.7.4",
     "umi-mock": "2.1.1",
     "umi-utils": "1.7.1",
-    "update-notifier": "3.0.0",
-    "yargs-parser": "13.1.1"
+    "update-notifier": "6.0.0",
+    "yargs-parser": "13.1.2",
+    "@snyk/protect": "latest"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,10 @@
   "authors": [
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
