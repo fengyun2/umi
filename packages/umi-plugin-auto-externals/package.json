@@ -21,12 +21,18 @@
   "dependencies": {
     "auto-external-packages": "^1.0.0",
     "chalk": "2.4.2",
-    "copy-webpack-plugin": "5.0.3",
-    "got": "9.6.0",
-    "semver": "6.1.1"
+    "copy-webpack-plugin": "6.0.0",
+    "got": "11.8.5",
+    "semver": "6.1.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/got": "9.6.0",
     "umi-types": "0.5.3"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
