@@ -1,0 +1,194 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/types > lodash':
+        patched: '2022-10-05T20:05:13.023Z'
+    - cheerio > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - http-proxy-middleware > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - write-file-webpack-plugin > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - yeoman-generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - '@babel/traverse > @babel/generator > lodash':
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/core > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/core > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > eslint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > eslint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > babel-types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - yeoman-generator > async > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - yeoman-generator > yeoman-environment > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - '@babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > eslint > inquirer > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > eslint > inquirer > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > eslint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > eslint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-order > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-order > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - '@babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint > inquirer > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint > inquirer > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint-config-egg > eslint-plugin-jsdoc > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint-config-egg > eslint-plugin-jsdoc > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-reporter > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-reporter > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint-order > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint-order > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-order > postcss-sorting > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-order > postcss-sorting > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > table > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-reporter > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-reporter > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint-order > postcss-sorting > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint-order > postcss-sorting > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > eslint-config-egg > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - sylvanas > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
+    - umi-uni18n > @umijs/fabric > stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-10-05T20:05:13.023Z'
