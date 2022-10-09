@@ -36,10 +36,16 @@
     "@babel/runtime": "7.4.5",
     "babel-plugin-macros": "2.6.1",
     "babel-plugin-react-require": "3.0.0",
-    "babel-plugin-transform-react-remove-prop-types": "0.4.24"
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "@snyk/protect": "latest"
   },
   "files": [
     "lib",
     "src"
-  ]
+  ],
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
