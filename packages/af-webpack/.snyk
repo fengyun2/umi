@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/register > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - duplicate-package-checker-webpack-plugin > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - eslint > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - eslint-plugin-flowtype > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - eslint-plugin-import > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - inquirer > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - umi-webpack-bundle-analyzer > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - webpack-manifest-plugin > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - webpack-merge > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - eslint > table > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - react-dev-utils > inquirer > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@svgr/core > h2x-core > h2x-parse > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-10-09T20:33:47.370Z'
