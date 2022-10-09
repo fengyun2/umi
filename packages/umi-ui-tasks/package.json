@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "concurrently \"npm run build -- --watch\" \"CURRENT_PROJECT=example DEVELOP_MODE=1 umi ui\"",
     "build": "node scripts/build.js",
-    "lint": "eslint --ext .ts,.tsx src"
+    "lint": "eslint --ext .ts,.tsx src",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "files": [
     "lib",
@@ -14,10 +16,11 @@
   ],
   "dependencies": {
     "binary-mirror-config": "1.20.3",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.2",
     "portfinder": "^1.0.24",
     "rimraf": "^3.0.0",
-    "umi-webpack-bundle-analyzer": "^3.5.0"
+    "umi-webpack-bundle-analyzer": "^3.6.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@ant-design/compatible": "^0.0.1-alpha.1",
@@ -40,5 +43,6 @@
     "directory": "packages/umi-plugin-ui"
   },
   "author": "ikobe",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
