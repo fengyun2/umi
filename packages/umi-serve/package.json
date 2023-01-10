@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/preset-typescript": "7.3.3",
     "@babel/register": "7.4.4",
-    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-module-resolver": "5.0.0",
     "babel-preset-umi": "1.8.1",
     "boxen": "2.1.0",
     "chalk": "2.4.2",
