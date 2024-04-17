@@ -10,7 +10,7 @@
     "@babel/traverse": "7.4.5",
     "@babel/types": "7.4.4",
     "af-webpack": "1.11.5",
-    "babel-plugin-module-resolver": "3.2.0",
+    "babel-plugin-module-resolver": "5.0.1",
     "babel-preset-umi": "1.8.1",
     "chalk": "2.4.2",
     "cheerio": "1.0.0-rc.3",
