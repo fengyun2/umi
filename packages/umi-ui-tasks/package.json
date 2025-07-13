@@ -16,7 +16,7 @@
     "binary-mirror-config": "1.20.3",
     "mkdirp": "^0.5.1",
     "portfinder": "^1.0.24",
-    "rimraf": "^3.0.0",
+    "rimraf": "^4.3.1",
     "umi-webpack-bundle-analyzer": "^3.5.0"
   },
   "devDependencies": {
